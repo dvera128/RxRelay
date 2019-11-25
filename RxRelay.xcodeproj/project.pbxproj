@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8430D15BC3691444869E4B7F /* Pods_RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC53560B46A01977A583561 /* Pods_RxRelay.framework */; };
-		AECE859CD22E5AF6CEF9B6D9 /* Pods_RxRelayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B56D5FEF0D80D51F48474AD /* Pods_RxRelayTests.framework */; };
+		CC0443B3DD692E5B2B8113F1 /* Pods_RxRelay_RxRelayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EF7F7400E2185B6AFC447F /* Pods_RxRelay_RxRelayTests.framework */; };
 		CFE091461EB368C900E9FDAD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE0913C1EB368C900E9FDAD /* RxRelay.framework */; };
 		CFE0914B1EB368C900E9FDAD /* RxRelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0914A1EB368C900E9FDAD /* RxRelayTests.swift */; };
 		CFE0914D1EB368C900E9FDAD /* RxRelay.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE0913F1EB368C900E9FDAD /* RxRelay.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,7 +30,9 @@
 
 /* Begin PBXFileReference section */
 		00BBB594F9C2C899C61A0B10 /* Pods-RxRelay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRelay.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxRelay/Pods-RxRelay.release.xcconfig"; sourceTree = "<group>"; };
-		1B56D5FEF0D80D51F48474AD /* Pods_RxRelayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxRelayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EF7F7400E2185B6AFC447F /* Pods_RxRelay_RxRelayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxRelay_RxRelayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6886E2E7EE60A98B0AE816FA /* Pods-RxRelay-RxRelayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRelay-RxRelayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxRelay-RxRelayTests/Pods-RxRelay-RxRelayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68E35896C8212FFC4E80C377 /* Pods-RxRelay-RxRelayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRelay-RxRelayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxRelay-RxRelayTests/Pods-RxRelay-RxRelayTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F789E4D16D4AAB032F15152 /* Pods-RxRelayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRelayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxRelayTests/Pods-RxRelayTests.release.xcconfig"; sourceTree = "<group>"; };
 		CCC53560B46A01977A583561 /* Pods_RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE0913C1EB368C900E9FDAD /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE091461EB368C900E9FDAD /* RxRelay.framework in Frameworks */,
-				AECE859CD22E5AF6CEF9B6D9 /* Pods_RxRelayTests.framework in Frameworks */,
+				CC0443B3DD692E5B2B8113F1 /* Pods_RxRelay_RxRelayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +77,8 @@
 				00BBB594F9C2C899C61A0B10 /* Pods-RxRelay.release.xcconfig */,
 				FA3F64CC4EBE0A6F2EA73D4F /* Pods-RxRelayTests.debug.xcconfig */,
 				6F789E4D16D4AAB032F15152 /* Pods-RxRelayTests.release.xcconfig */,
+				6886E2E7EE60A98B0AE816FA /* Pods-RxRelay-RxRelayTests.debug.xcconfig */,
+				68E35896C8212FFC4E80C377 /* Pods-RxRelay-RxRelayTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -83,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC53560B46A01977A583561 /* Pods_RxRelay.framework */,
-				1B56D5FEF0D80D51F48474AD /* Pods_RxRelayTests.framework */,
+				39EF7F7400E2185B6AFC447F /* Pods_RxRelay_RxRelayTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,7 +157,6 @@
 				CFE091381EB368C900E9FDAD /* Frameworks */,
 				CFE091391EB368C900E9FDAD /* Headers */,
 				CFE0913A1EB368C900E9FDAD /* Resources */,
-				9F0144263C645F2BBB283CC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,8 +175,7 @@
 				CFE091411EB368C900E9FDAD /* Sources */,
 				CFE091421EB368C900E9FDAD /* Frameworks */,
 				CFE091431EB368C900E9FDAD /* Resources */,
-				07057FA1054C8D01B0D69567 /* [CP] Embed Pods Frameworks */,
-				45CE9847BECB279B558E0ED1 /* [CP] Copy Pods Resources */,
+				BE5CC8C162212B1BA5D2F37D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +215,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CFE091321EB368C900E9FDAD;
@@ -244,49 +247,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07057FA1054C8D01B0D69567 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxRelayTests/Pods-RxRelayTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		311BBB2B3C6B3B89BE63B836 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxRelay-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		45CE9847BECB279B558E0ED1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxRelayTests/Pods-RxRelayTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		812F6F7E11639F437F06E5C2 /* [CP] Check Pods Manifest.lock */ = {
@@ -295,28 +271,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxRelay-RxRelayTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F0144263C645F2BBB283CC5 /* [CP] Copy Pods Resources */ = {
+		BE5CC8C162212B1BA5D2F37D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxRelay-RxRelayTests/Pods-RxRelay-RxRelayTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxRelay/Pods-RxRelay-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxRelay-RxRelayTests/Pods-RxRelay-RxRelayTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -399,6 +381,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -444,6 +427,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -474,7 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -500,35 +484,35 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wassimseifeddine.RxRelay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		CFE091541EB368C900E9FDAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3F64CC4EBE0A6F2EA73D4F /* Pods-RxRelayTests.debug.xcconfig */;
+			baseConfigurationReference = 6886E2E7EE60A98B0AE816FA /* Pods-RxRelay-RxRelayTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
 				INFOPLIST_FILE = RxRelayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wassimseifeddine.RxRelayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		CFE091551EB368C900E9FDAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F789E4D16D4AAB032F15152 /* Pods-RxRelayTests.release.xcconfig */;
+			baseConfigurationReference = 68E35896C8212FFC4E80C377 /* Pods-RxRelay-RxRelayTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
 				INFOPLIST_FILE = RxRelayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wassimseifeddine.RxRelayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
